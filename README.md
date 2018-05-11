@@ -1,0 +1,42 @@
+<pre>
+src
+  /app
+    /about
+      AboutPage
+    /authors
+      /details
+          AuthorAddress
+          AuthorCompany
+        AuthorDetailsPage
+          AuthorInfo
+      AuthorItem
+      AuthorsList
+      AuthorsPage
+    /common
+      Footer
+      Header
+        MainMenu
+    /posts
+      /details
+          PostAuthor
+        PostDetailsPage
+          PostsFromAuthor
+      CreatePost
+      PostItem
+      PostsList
+      PostsPage
+    App
+    Main
+  /models
+      Address
+    Author
+      Company
+      GeoLocation
+    Post
+  /services
+    AuthorService
+    PostService
+  /shared
+    constants
+index
+</pre>
