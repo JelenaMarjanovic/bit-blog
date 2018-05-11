@@ -2,8 +2,10 @@
   "name": "bit-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://JelenaMarjanovic.github.io/bit-blog/",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^1.1.0",
     "materialize-css": "^1.0.0-beta",
     "npm": "^5.8.0",
     "react": "^16.2.0",
@@ -15,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "main": "index.js",
