@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://JelenaMarjanovic.github.io/bit-blog/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^1.1.0",
     "materialize-css": "^1.0.0-beta",
     "npm": "^6.13.4",
